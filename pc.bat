@@ -1,8 +1,51 @@
 @ECHO OFF
-ECHO 1. ê³„ì •ê´€ë¦¬ > 1.1 íŒ¨ìŠ¤ì›Œë“œì˜ ì£¼ê¸°ì  ë³€ê²½
-
+ECHO [1. °èÁ¤°ü¸® - 1.1 Administrator °èÁ¤ ÀÌ¸§ ¹Ù²Ù±â]
 ECHO.
-ECHO â— íŒë‹¨ ê¸°ì¤€
-ECHO ìµœëŒ€ ì•”í˜¸ ì‚¬ìš© ê¸°ê°„ì´ "90ì¼" ì´í•˜ë¡œ ì„¤ì •ë˜ì–´ ìžˆëŠ”ì§€ ì ê²€
-ECHO ì–‘í˜¸ : ìµœëŒ€ ì•”í˜¸ ì‚¬ìš© ê¸°ê°„ì´ "90ì¼"ì´í•˜ë¡œ ì„¤ì •ë˜ì–´ ìžˆëŠ” ê²½ìš°
-ECHO ì·¨ì•½ : ì•”í˜¸ ì‚¬ìš© ê¸°ê°„ì´ "ì œí•œ ì—†ìŒ"ì´ê±°ë‚˜ "90ì¼"ì„ ì´ˆê³¼í•˜ì—¬ ì„¤ì •ë˜ì–´ ìžˆëŠ” ê²½ìš°
+ECHO  ¡Û ¾ÈÀü ¡Û
+ECHO  ¡Ú À§Çè ¡Ú
+ECHO.
+
+ECHO # Á¡°Ë ¸ñÀû
+ECHO  À©µµ¿ìÁî ±âº» °ü¸®ÀÚ °èÁ¤ÀÎ AdministratorÀÇ ÀÌ¸§À» º¯°æÇÏ¿©, Àß ¾Ë·ÁÁø °èÁ¤À» ÅëÇÑ ¾ÇÀÇÀûÀÎ ÆÐ½º¿öµå ÃßÃø °ø°ÝÀ» Â÷´ÜÇÏ°íÀÚ ÇÔ
+ECHO.
+
+ECHO # ÆÇ´Ü ±âÁØ
+ECHO  À©µµ¿ìÁî ÃÖ»óÀ§ °ü¸®ÀÚ °èÁ¤ÀÎ AdministratorÀÇ °èÁ¤¸í º¯°æ ¿©ºÎ Á¡°Ë
+ECHO   ¾çÈ£ : Administrator Default °èÁ¤ ÀÌ¸§À» º¯°æÇÑ °æ¿ì
+ECHO   Ãë¾à : Administrator Default °èÁ¤ ÀÌ¸§À» º¯°æÇÏÁö ¾ÊÀº °æ¿ì
+ECHO.
+
+ECHO # Á¶Ä¡ ¹æ¹ý (Windows NT, 2000, 2003, 2008, 2012)
+ECHO  Administrator Default °èÁ¤ ÀÌ¸§ º¯°æ
+ECHO   1) ½ÃÀÛ - ÇÁ·Î±×·¥ - Á¦¾îÆÇ - °ü¸®µµ±¸ - ·ÎÄÃ º¸¾È Á¤Ã¥ - ·ÎÄÃ Á¤Ã¥ - º¸¾È¿É¼Ç
+ECHO   2) "°èÁ¤: Administrator °èÁ¤ ÀÌ¸§ ¹Ù²Ù±â"¸¦ À¯ÃßÇÏ±â ¾î·Á¿î °èÁ¤ ÀÌ¸§À¸·Î º¯°æ
+ECHO.
+@PAUSE
+
+@ECHO OFF
+ECHO [1. °èÁ¤°ü¸® - 1.2 Guest °èÁ¤ »óÅÂ]
+ECHO.
+ECHO  ¡Û ¾ÈÀü ¡Û
+ECHO  ¡Ú À§Çè ¡Ú
+ECHO.
+
+ECHO # Á¡°Ë ¸ñÀû
+ECHO  Guest °èÁ¤À» ºñÈ°¼ºÈ­ ÇÏ¿© ºÒÆ¯Á¤ ´Ù¼öÀÇ ÀÓ½ÃÀûÀÎ ½Ã½ºÅÛ Á¢±ÙÀ» Â÷´ÜÇÏ±â À§ÇÔ
+ECHO.
+
+ECHO # ÆÇ´Ü ±âÁØ
+ECHO  Guest °èÁ¤ ºñÈ°¼ºÈ­ ¿©ºÎ Á¡°Ë
+ECHO   ¾çÈ£ : Guest °èÁ¤ÀÌ ºñÈ°¼ºÈ­ µÇ¾î ÀÖ´Â °æ¿ì
+ECHO   Ãë¾à : Guest °èÁ¤ÀÌ È°¼ºÈ­ µÇ¾î ÀÖ´Â °æ¿ì
+ECHO.
+
+ECHO # Á¶Ä¡ ¹æ¹ý (Windows NT)
+ECHO   1) ½ÃÀÛ - ÇÁ·Î±×·¥ - °ü¸®µµ±¸ - µµ¸ÞÀÎ »ç¿ëÀÚ °ü¸® - Guest °èÁ¤ ¼±ÅÃ - µî·ÏÁ¤º¸
+ECHO   2) "°èÁ¤ »ç¿ë ¾ÈÇÔ"¿¡ Ã¼Å©
+ECHO.
+
+ECHO # Á¶Ä¡ ¹æ¹ý (Windows 2000, 2003, 2008, 2012)
+ECHO   1) ½ÃÀÛ - ½ÇÇà - LUSRMGR.MSC - »ç¿ëÀÚ - GUEST - ¼Ó¼º
+ECHO   2) "°èÁ¤ »ç¿ë ¾ÈÇÔ"¿¡ Ã¼Å©
+ECHO.
+@PAUSE
